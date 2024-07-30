@@ -14,7 +14,7 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private String id;
 	private String name;
-	private String email;
+	private String usuario;
 	private String password;
 
 	public String getName() {
@@ -25,12 +25,12 @@ public class User {
 		this.name = name;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getUsuario() {
+		return usuario;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEmail(String usuario) {
+		this.usuario = usuario;
 	}
 
 	public String getPassword() {
